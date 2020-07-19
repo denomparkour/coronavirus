@@ -31,6 +31,7 @@ while loop < 1:
         time.sleep(2)
     if ui == "5":
         ux = input("Enter the country name : ")
+        print("")
         zak = (covid.get_status_by_country_name(ux))
         for i in zak:
             print(i, ":", zak[i])
