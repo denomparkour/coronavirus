@@ -18,16 +18,16 @@ while loop < 1:
     print("")
     ui = input("please select a Number : ")
     if ui == "1":
-        print("Total Active cases is :", covid.get_total_active_cases())
+        print("Total Active cases are :", covid.get_total_active_cases())
         time.sleep(2)
     if ui == "2":
-        print("Total confirmed cases is :", covid.get_total_confirmed_cases())
+        print("Total confirmed cases are :", covid.get_total_confirmed_cases())
         time.sleep(2)
     if ui == "3":
-        print("Total Recovered cases is :", covid.get_total_confirmed_cases())
+        print("Total Recovered cases are :", covid.get_total_confirmed_cases())
         time.sleep(2)
     if ui == "4":
-        print("Total Deaths is :", covid.get_total_deaths())
+        print("Total Deaths are :", covid.get_total_deaths())
         time.sleep(2)
     if ui == "5":
         ux = input("Enter the country name : ")
@@ -39,6 +39,6 @@ while loop < 1:
     man = int(ui)
     if man >= 6:
         print("Please select a valid Number")
-    else:
-        print("Install brain.com")
+
+
 loop += 1
