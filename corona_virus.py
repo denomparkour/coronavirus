@@ -3,6 +3,7 @@ import time
 covid = Covid()
 loop = 0
 while loop < 1:
+    print("")
     print('*' * 10)
     print("welcome to kareena vimrus chemker")
     print('*' * 10)
